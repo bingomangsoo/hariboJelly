@@ -1,2 +1,13 @@
-# hariboJelly
-![하리보젤리](https://user-images.githubusercontent.com/101463273/218412867-1df73991-5844-4330-a52f-0ef1afcaaf19.png)
+## 프로젝트명
+
+## 프로젝트 설명
+
+## 프로젝트 기능
+
+## 프로젝트 화면 구성
+
+## 사용 기술
+
+## 팀원
+
+## 트러블 슈팅
