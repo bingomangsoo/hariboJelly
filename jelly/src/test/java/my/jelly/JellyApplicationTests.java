@@ -1,4 +1,4 @@
-package com.my.jelly;
+package my.jelly;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

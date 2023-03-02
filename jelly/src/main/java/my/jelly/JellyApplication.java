@@ -1,4 +1,4 @@
-package com.my.jelly;
+package my.jelly;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
