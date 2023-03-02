@@ -6,7 +6,6 @@ import org.hibernate.annotations.DynamicInsert;
 import javax.persistence.*;
 
 @Entity
-@Table
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
@@ -16,7 +15,7 @@ import javax.persistence.*;
 @DynamicInsert
 public class jBoard extends BaseEntity {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE) //mysql에서는 IDENTITY
     private Long bIdx; //글 번호
 
     @Column(nullable = false, length = 300)

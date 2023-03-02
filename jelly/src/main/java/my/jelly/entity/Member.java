@@ -10,7 +10,6 @@ import javax.persistence.Table;
 
 @Entity
 @Builder
-@Table
 @AllArgsConstructor
 @NoArgsConstructor
 @Setter
@@ -20,7 +19,7 @@ import javax.persistence.Table;
 public class Member {
     @Id
     @Column(nullable = false, unique = true)
-    private Long mEmail; //유저 이메일 : 카카오에서 받아온 정보
+    private String mEmail; //유저 이메일 : 카카오에서 받아온 정보
 
     @Column(length = 10, nullable = false)
     private String mNick; //유저 닉네임 : 카카오에서 받아온 정보

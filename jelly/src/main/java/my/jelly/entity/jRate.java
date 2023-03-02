@@ -5,14 +5,17 @@ import lombok.*;
 import javax.persistence.*;
 
 @Entity
-@Table
-@NoArgsConstructor
-@AllArgsConstructor
-@ToString
 @Builder
+@AllArgsConstructor
+@NoArgsConstructor
 @Getter
 @Setter
+@ToString
 public class jRate {
+    //id문제로 일단 생성
+    @Id
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    private Long rIdx;
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "jIdx")

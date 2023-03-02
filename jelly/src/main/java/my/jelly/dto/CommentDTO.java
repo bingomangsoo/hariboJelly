@@ -9,7 +9,7 @@ import java.time.LocalDateTime;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class ReplyDTO {
+public class CommentDTO {
     private Long cIdx; //댓글 번호
     private String cContent; //댓글 내용
     private String cWriter; //댓글 작성자

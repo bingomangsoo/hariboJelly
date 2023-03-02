@@ -13,7 +13,7 @@ import javax.persistence.*;
 @ToString
 public class jInfo {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long jIdx; //젤리 번호
 
     @Column(nullable = false, length = 100)
