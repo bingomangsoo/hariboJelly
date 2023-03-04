@@ -11,4 +11,5 @@ import java.util.List;
 @Repository
 public interface MemberRepository extends JpaRepository<Member, String> {
     Member findBymEmail(String mEmail);
+
 }
