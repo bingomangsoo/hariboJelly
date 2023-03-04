@@ -38,4 +38,12 @@ class BoardServiceTest {
         System.out.println("글 등록 완료!");
     }
 
+    @Test
+    void 회원작성글조회(){
+        String user = "test1@kakao.com";
+        Member member = memberService.findUser(user);
+
+
+    }
+
 }
